@@ -30,5 +30,15 @@ public class fizzbuzztest {
 	public void test6() {
 		assertEquals(fizzbuzz.fizzBuzz(6), "Fizz");
 	}
+	
+	@Test
+	public void test5() {
+		assertEquals(fizzbuzz.fizzBuzz(5), "Buzz");
+	}
+	
+	@Test
+	public void test10() {
+		assertEquals(fizzbuzz.fizzBuzz(10), "Buzz");
+	}
 
 }
