@@ -15,5 +15,10 @@ public class fizzbuzztest {
 	public void test1() {
 		assertEquals(fizzbuzz.fizzBuzz(1), "1");
 	}
+	
+	@Test
+	public void test2() {
+		assertEquals(fizzbuzz.fizzBuzz(2), "2");
+	}
 
 }
