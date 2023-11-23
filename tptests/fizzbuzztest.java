@@ -32,13 +32,13 @@ public class fizzbuzztest {
 	}
 	
 	@Test
-	public void test5() {
-		assertEquals(fizzbuzz.fizzBuzz(5), "Buzz");
+	public void test10() {
+		assertEquals(fizzbuzz.fizzBuzz(10), "Buzz");
 	}
 	
 	@Test
-	public void test10() {
-		assertEquals(fizzbuzz.fizzBuzz(10), "Buzz");
+	public void test15() {
+		assertEquals(fizzbuzz.fizzBuzz(15), "FizzBuzz");
 	}
 
 }
