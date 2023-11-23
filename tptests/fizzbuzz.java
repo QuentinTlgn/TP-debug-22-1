@@ -14,4 +14,11 @@ public class fizzbuzz {
 		return Integer.toString(i);
 	}
 	
+	public static String fizzBuzz2(int i) {
+		for(int ite = 0; ite < i; ite++) {
+			System.out.println(fizzbuzz.fizzBuzz(ite));
+		}
+		return fizzbuzz.fizzBuzz(i);
+	}
+	
 }

@@ -40,5 +40,11 @@ public class fizzbuzztest {
 	public void test15() {
 		assertEquals(fizzbuzz.fizzBuzz(15), "FizzBuzz");
 	}
+	
+	public void testF20() {
+		assertEquals(fizzbuzz.fizzBuzz2(20), fizzbuzz.fizzBuzz(20));
+	}
+	
+	
 
 }
